@@ -3,7 +3,7 @@ This script allows you to search a chatbot using a GUI. It uses the OpenAI API a
 
 ## Prerequisites
 - Python 3.x
-- The openai library: pip install openai
+- The openai library: `pip install openai`
 - A valid OpenAI API key. You can sign up for an API key and learn more about the Chatbot API at https://beta.openai.com/docs/api-reference/completion/create.
 
 ## How it works
