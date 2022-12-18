@@ -1,4 +1,4 @@
-# ChatGPT-Local Chatbot
+# ChatGPT Local Chatbot
 This script allows you to search a chatbot using a GUI. It uses the OpenAI API and the openai Python library to interact with the Chatbot API, and the tkinter library to create the GUI.
 
 ## Prerequisites
