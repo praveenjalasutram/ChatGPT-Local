@@ -39,8 +39,8 @@ result_label = tk.Label(text="")
 result_label.pack()
 
 # Create a label to display the Creator
-creator_label = tk.Label(text='Created by CyberSec_Sai:\nWebsite: https://praveenjalasutram.wixsite.com/praveenjalasutram\nLinkedIn: https://www.linkedin.com/in/praveenjalasutram/\nTwitter: https://twitter.com/cybersec_sai\nGitHub: https://github.com/praveenjalasutram')
-#creator_label.grid(row=4, column=1)
+creator_label = tk.Label(text='\n\n\n\nCreated by CyberSec_Sai:\nWebsite: https://praveenjalasutram.wixsite.com/praveenjalasutram\nLinkedIn: https://www.linkedin.com/in/praveenjalasutram/\nTwitter: https://twitter.com/cybersec_sai\nGitHub: https://github.com/praveenjalasutram')
+creator_label.pack()
 
 # Run the GUI
 window.mainloop()
