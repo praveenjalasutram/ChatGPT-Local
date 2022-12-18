@@ -16,7 +16,7 @@ To use this script, you will need to sign up for an OpenAI API key and replace "
 
   `openai.api_key = "YOUR_API_KEY_HERE"`
 
-- Run the script: `python3 chatbot_search.py`
+- Run the script: `python3 chatgpt_local_chatbot.py`
 - Enter your search query in the input field and click the "Search" button.
 The chatbot's response will be displayed in the result label.
 
