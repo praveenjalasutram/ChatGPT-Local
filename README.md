@@ -1,6 +1,9 @@
 # ChatGPT Local Chatbot
 This script allows you to search a chatbot using a GUI. It uses the OpenAI API and the openai Python library to interact with the Chatbot API, and the tkinter library to create the GUI.
 
+![image](https://user-images.githubusercontent.com/17245435/208283548-956da3f1-42f4-42f5-81da-e1babcadd60f.png)
+
+
 ## Prerequisites
 - Python 3.x
 - The openai library: `pip install openai`
@@ -14,7 +17,7 @@ To use this script, you will need to sign up for an OpenAI API key and replace "
 ## Usage
 - Replace "YOUR_API_KEY_HERE" in the following line with your own API key:
 
-  `openai.api_key = "YOUR_API_KEY_HERE"`
+  `openai.api_key = "YOUR_API_KEY_HERE"` /// You will have to pay for this API after you complete your free trial.
 
 - Run the script: `python3 chatgpt_local_chatbot.py`
 - Enter your search query in the input field and click the "Search" button.
