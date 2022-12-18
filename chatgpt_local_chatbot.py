@@ -2,7 +2,7 @@ import openai
 import tkinter as tk
 
 # Set the OpenAI API key
-openai.api_key = "YOUR_API_KEY_HERE"
+openai.api_key = "YOUR_API_KEY_HERE" # Note: You have to pay for this service upon completion of the free trial.
 
 # Create a function to handle the search query
 def search():
@@ -20,7 +20,9 @@ def search():
 
 # Create the main window
 window = tk.Tk()
-window.title("Chatbot Search")
+window.title("ChatGPT Local ChatBot, Created by: CyberSec_Sai")
+# window.attributes('-fullscreen', True) # For Full screen
+window.geometry('1920x1080')  # Fit the window to the size of the screen
 
 # Create a label and an input field for the search query
 query_label = tk.Label(text="Enter your search query:")
@@ -35,6 +37,10 @@ search_button.pack()
 # Create a label to display the result
 result_label = tk.Label(text="")
 result_label.pack()
+
+# Create a label to display the Creator
+creator_label = tk.Label(text='Created by CyberSec_Sai:\nWebsite: https://praveenjalasutram.wixsite.com/praveenjalasutram\nLinkedIn: https://www.linkedin.com/in/praveenjalasutram/\nTwitter: https://twitter.com/cybersec_sai\nGitHub: https://github.com/praveenjalasutram')
+#creator_label.grid(row=4, column=1)
 
 # Run the GUI
 window.mainloop()
